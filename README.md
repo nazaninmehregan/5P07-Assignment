@@ -103,6 +103,12 @@ The tracing result in Jaeger is shown in the picture below:
 This data shows that there has been 11 spans during the runtime and the depth was 2. It took 31ms to read and send all the files from client to server.
 Also, it took different amounts of time for each file to be processed and sent over to the server. This might be related to factors such as file size or resources such as cpu and cache.
 
+![image](https://user-images.githubusercontent.com/34520824/209615142-935546e5-e3c4-4fd6-b011-fe0e97384dcc.png)
+This image shows the exact timestamps that the client sends requests to the server.
+
+![image](https://user-images.githubusercontent.com/34520824/209615581-8e0d44bd-a362-4570-b8a7-0dc8240af91b.png)
+This image shows the trace data regarding number of active threads in the program and it shows that there have been a maximum of two active threads while the application was running.
+
 
 
 

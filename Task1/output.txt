@@ -1,0 +1,2796 @@
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.HashSetInsert
+
+# Run progress: 0.00% complete, ETA 01:03:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 11.780 ops/s
+# Warmup Iteration   2: 10.735 ops/s
+Iteration   1: 10.460 ops/s
+Iteration   2: 8.539 ops/s
+Iteration   3: 10.319 ops/s
+Iteration   4: 11.751 ops/s
+Iteration   5: 11.178 ops/s
+
+# Run progress: 1.85% complete, ETA 01:02:59
+# Fork: 1 of 1
+# Warmup Iteration   1: 12.216 ops/s
+# Warmup Iteration   2: 13.205 ops/s
+Iteration   1: 12.615 ops/s
+Iteration   2: 11.438 ops/s
+Iteration   3: 11.467 ops/s
+Iteration   4: 10.099 ops/s
+Iteration   5: 11.133 ops/s
+
+
+Result "com.naz.MyBenchmark.HashSetInsert":
+  11.350 ±(99.9%) 3.462 ops/s [Average]
+  (min, avg, max) = (10.099, 11.350, 12.615), stdev = 0.899
+  CI (99.9%): [7.888, 14.813] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.HashSetSearch
+
+# Run progress: 3.70% complete, ETA 01:01:45
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 32613162.856 ops/s
+# Warmup Iteration   2: 35310735.279 ops/s
+Iteration   1: 34822062.094 ops/s
+Iteration   2: 35199847.259 ops/s
+Iteration   3: 35016482.950 ops/s
+Iteration   4: 35528547.564 ops/s
+Iteration   5: 35584245.978 ops/s
+
+# Run progress: 5.56% complete, ETA 01:00:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 33975000.135 ops/s
+# Warmup Iteration   2: 35750836.402 ops/s
+Iteration   1: 35013135.032 ops/s
+Iteration   2: 36177876.039 ops/s
+Iteration   3: 34568038.614 ops/s
+Iteration   4: 35637432.532 ops/s
+Iteration   5: 35488407.918 ops/s
+
+
+Result "com.naz.MyBenchmark.HashSetSearch":
+  35376978.027 ±(99.9%) 2364664.961 ops/s [Average]
+  (min, avg, max) = (34568038.614, 35376978.027, 36177876.039), stdev = 614095.981
+  CI (99.9%): [33012313.066, 37741642.988] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.HashSetSort
+
+# Run progress: 7.41% complete, ETA 00:59:14
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 22053907.334 ops/s
+# Warmup Iteration   2: 22847364.325 ops/s
+Iteration   1: 23363501.971 ops/s
+Iteration   2: 23367343.018 ops/s
+Iteration   3: 23569946.744 ops/s
+Iteration   4: 21404492.018 ops/s
+Iteration   5: 21380203.918 ops/s
+
+# Run progress: 9.26% complete, ETA 00:58:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 12052562.935 ops/s
+# Warmup Iteration   2: 16111235.252 ops/s
+Iteration   1: 13911035.479 ops/s
+Iteration   2: 10311152.645 ops/s
+Iteration   3: 9990950.849 ops/s
+Iteration   4: 13526403.883 ops/s
+Iteration   5: 21173941.478 ops/s
+
+
+Result "com.naz.MyBenchmark.HashSetSort":
+  13782696.867 ±(99.9%) 17343038.101 ops/s [Average]
+  (min, avg, max) = (9990950.849, 13782696.867, 21173941.478), stdev = 4503931.920
+  CI (99.9%): [? 0, 31125734.968] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetInsert
+
+# Run progress: 11.11% complete, ETA 00:56:58
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 9.986 ops/s
+# Warmup Iteration   2: 9.864 ops/s
+Iteration   1: 9.409 ops/s
+Iteration   2: 10.073 ops/s
+Iteration   3: 11.225 ops/s
+Iteration   4: 11.131 ops/s
+Iteration   5: 10.737 ops/s
+
+# Run progress: 12.96% complete, ETA 00:55:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 11.676 ops/s
+# Warmup Iteration   2: 11.679 ops/s
+Iteration   1: 8.690 ops/s
+Iteration   2: 10.488 ops/s
+Iteration   3: 9.750 ops/s
+Iteration   4: 9.468 ops/s
+Iteration   5: 9.751 ops/s
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetInsert":
+  9.629 ±(99.9%) 2.492 ops/s [Average]
+  (min, avg, max) = (8.690, 9.629, 10.488), stdev = 0.647
+  CI (99.9%): [7.137, 12.121] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSearch
+
+# Run progress: 14.81% complete, ETA 00:54:34
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 31877721.955 ops/s
+# Warmup Iteration   2: 31166993.951 ops/s
+Iteration   1: 30658570.866 ops/s
+Iteration   2: 33524104.895 ops/s
+Iteration   3: 31641855.220 ops/s
+Iteration   4: 32614751.634 ops/s
+Iteration   5: 33456315.398 ops/s
+
+# Run progress: 16.67% complete, ETA 00:53:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 29089444.573 ops/s
+# Warmup Iteration   2: 30076071.066 ops/s
+Iteration   1: 34925713.515 ops/s
+Iteration   2: 35142341.588 ops/s
+Iteration   3: 35251595.953 ops/s
+Iteration   4: 34749584.369 ops/s
+Iteration   5: 34749890.806 ops/s
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSearch":
+  34963825.247 ±(99.9%) 877658.954 ops/s [Average]
+  (min, avg, max) = (34749584.369, 34963825.247, 35251595.953), stdev = 227925.243
+  CI (99.9%): [34086166.292, 35841484.201] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSort
+
+# Run progress: 18.52% complete, ETA 00:52:10
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 19266952.050 ops/s
+# Warmup Iteration   2: 21411765.950 ops/s
+Iteration   1: 21503979.709 ops/s
+Iteration   2: 23030339.197 ops/s
+Iteration   3: 23550363.392 ops/s
+Iteration   4: 21698296.190 ops/s
+Iteration   5: 22310773.108 ops/s
+
+# Run progress: 20.37% complete, ETA 00:50:58
+# Fork: 1 of 1
+# Warmup Iteration   1: 19568826.290 ops/s
+# Warmup Iteration   2: 21076584.126 ops/s
+Iteration   1: 22337867.054 ops/s
+Iteration   2: 22149129.902 ops/s
+Iteration   3: 20130710.050 ops/s
+Iteration   4: 19250443.591 ops/s
+Iteration   5: 17679548.182 ops/s
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSort":
+  20309539.756 ±(99.9%) 7596785.685 ops/s [Average]
+  (min, avg, max) = (17679548.182, 20309539.756, 22337867.054), stdev = 1972861.118
+  CI (99.9%): [12712754.071, 27906325.441] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.TreeSetInsert
+
+# Run progress: 22.22% complete, ETA 00:49:46
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 2.437 ops/s
+# Warmup Iteration   2: 1.845 ops/s
+Iteration   1: 2.156 ops/s
+Iteration   2: 2.804 ops/s
+Iteration   3: 2.496 ops/s
+Iteration   4: 2.473 ops/s
+Iteration   5: 2.558 ops/s
+
+# Run progress: 24.07% complete, ETA 00:48:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 2.537 ops/s
+# Warmup Iteration   2: 2.824 ops/s
+Iteration   1: 2.675 ops/s
+Iteration   2: 2.697 ops/s
+Iteration   3: 2.529 ops/s
+Iteration   4: 2.453 ops/s
+Iteration   5: 2.684 ops/s
+
+
+Result "com.naz.MyBenchmark.TreeSetInsert":
+  2.608 ±(99.9%) 0.424 ops/s [Average]
+  (min, avg, max) = (2.453, 2.608, 2.697), stdev = 0.110
+  CI (99.9%): [2.183, 3.032] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.TreeSetSearch
+
+# Run progress: 25.93% complete, ETA 00:47:32
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 33163771.124 ops/s
+# Warmup Iteration   2: 34044548.895 ops/s
+Iteration   1: 34733859.916 ops/s
+Iteration   2: 33140427.545 ops/s
+Iteration   3: 33223823.766 ops/s
+Iteration   4: 35753254.216 ops/s
+Iteration   5: 34852094.857 ops/s
+
+# Run progress: 27.78% complete, ETA 00:46:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 33615742.116 ops/s
+# Warmup Iteration   2: 33820750.975 ops/s
+Iteration   1: 34268893.319 ops/s
+Iteration   2: 34899584.169 ops/s
+Iteration   3: 32825685.428 ops/s
+Iteration   4: 37640248.899 ops/s
+Iteration   5: 37845736.081 ops/s
+
+
+Result "com.naz.MyBenchmark.TreeSetSearch":
+  35496029.579 ±(99.9%) 8416794.530 ops/s [Average]
+  (min, avg, max) = (32825685.428, 35496029.579, 37845736.081), stdev = 2185814.811
+  CI (99.9%): [27079235.049, 43912824.109] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: com.naz.MyBenchmark.TreeSetSort
+
+# Run progress: 29.63% complete, ETA 00:45:07
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 21571979.350 ops/s
+# Warmup Iteration   2: 24361788.531 ops/s
+Iteration   1: 24868701.830 ops/s
+Iteration   2: 24153462.911 ops/s
+Iteration   3: 25243264.529 ops/s
+Iteration   4: 24474037.816 ops/s
+Iteration   5: 25168523.482 ops/s
+
+# Run progress: 31.48% complete, ETA 00:43:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 21976876.938 ops/s
+# Warmup Iteration   2: 23913768.247 ops/s
+Iteration   1: 25284363.597 ops/s
+Iteration   2: 24710927.101 ops/s
+Iteration   3: 24953157.745 ops/s
+Iteration   4: 25374531.122 ops/s
+Iteration   5: 25427447.736 ops/s
+
+
+Result "com.naz.MyBenchmark.TreeSetSort":
+  25150085.460 ±(99.9%) 1182117.731 ops/s [Average]
+  (min, avg, max) = (24710927.101, 25150085.460, 25427447.736), stdev = 306992.221
+  CI (99.9%): [23967967.729, 26332203.191] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.HashSetInsert
+
+# Run progress: 33.33% complete, ETA 00:42:44
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.070 s/op
+# Warmup Iteration   2: 0.068 s/op
+Iteration   1: 0.071 s/op
+Iteration   2: 0.067 s/op
+Iteration   3: 0.069 s/op
+Iteration   4: 0.068 s/op
+Iteration   5: 0.067 s/op
+
+# Run progress: 35.18% complete, ETA 00:41:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.077 s/op
+# Warmup Iteration   2: 0.075 s/op
+Iteration   1: 0.076 s/op
+Iteration   2: 0.075 s/op
+Iteration   3: 0.074 s/op
+Iteration   4: 0.077 s/op
+Iteration   5: 0.080 s/op
+
+
+Result "com.naz.MyBenchmark.HashSetInsert":
+  0.077 ±(99.9%) 0.009 s/op [Average]
+  (min, avg, max) = (0.074, 0.077, 0.080), stdev = 0.002
+  CI (99.9%): [0.068, 0.086] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.HashSetSearch
+
+# Run progress: 37.04% complete, ETA 00:40:20
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 38.89% complete, ETA 00:39:08
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.HashSetSearch":
+  ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.HashSetSort
+
+# Run progress: 40.74% complete, ETA 00:37:57
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 42.59% complete, ETA 00:36:45
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.HashSetSort":
+  ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetInsert
+
+# Run progress: 44.44% complete, ETA 00:35:34
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.070 s/op
+# Warmup Iteration   2: 0.074 s/op
+Iteration   1: 0.072 s/op
+Iteration   2: 0.069 s/op
+Iteration   3: 0.074 s/op
+Iteration   4: 0.071 s/op
+Iteration   5: 0.072 s/op
+
+# Run progress: 46.29% complete, ETA 00:34:22
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.073 s/op
+# Warmup Iteration   2: 0.071 s/op
+Iteration   1: 0.070 s/op
+Iteration   2: 0.073 s/op
+Iteration   3: 0.071 s/op
+Iteration   4: 0.073 s/op
+Iteration   5: 0.070 s/op
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetInsert":
+  0.071 ±(99.9%) 0.006 s/op [Average]
+  (min, avg, max) = (0.070, 0.071, 0.073), stdev = 0.002
+  CI (99.9%): [0.065, 0.078] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSearch
+
+# Run progress: 48.15% complete, ETA 00:33:11
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 50.00% complete, ETA 00:32:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSearch":
+  ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSort
+
+# Run progress: 51.85% complete, ETA 00:30:48
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 53.70% complete, ETA 00:29:37
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSort":
+  ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.TreeSetInsert
+
+# Run progress: 55.55% complete, ETA 00:28:26
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.321 s/op
+# Warmup Iteration   2: 0.320 s/op
+Iteration   1: 0.315 s/op
+Iteration   2: 0.323 s/op
+Iteration   3: 0.325 s/op
+Iteration   4: 0.329 s/op
+Iteration   5: 0.326 s/op
+
+# Run progress: 57.41% complete, ETA 00:27:15
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.333 s/op
+# Warmup Iteration   2: 0.320 s/op
+Iteration   1: 0.326 s/op
+Iteration   2: 0.330 s/op
+Iteration   3: 0.352 s/op
+Iteration   4: 0.358 s/op
+Iteration   5: 0.383 s/op
+
+
+Result "com.naz.MyBenchmark.TreeSetInsert":
+  0.350 ±(99.9%) 0.089 s/op [Average]
+  (min, avg, max) = (0.326, 0.350, 0.383), stdev = 0.023
+  CI (99.9%): [0.261, 0.438] (assumes normal distribution)
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.TreeSetSearch
+
+# Run progress: 59.26% complete, ETA 00:26:05
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 61.11% complete, ETA 00:24:54
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.TreeSetSearch":
+  ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.naz.MyBenchmark.TreeSetSort
+
+# Run progress: 62.96% complete, ETA 00:23:42
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 64.81% complete, ETA 00:22:31
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.TreeSetSort":
+  ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.HashSetInsert
+
+# Run progress: 66.66% complete, ETA 00:21:20
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.066 ±(99.9%) 0.003 s/op
+# Warmup Iteration   2: 0.070 ±(99.9%) 0.002 s/op
+Iteration   1: 0.069 ±(99.9%) 0.002 s/op
+                 HashSetInsert·p0.00:   0.064 s/op
+                 HashSetInsert·p0.50:   0.066 s/op
+                 HashSetInsert·p0.90:   0.077 s/op
+                 HashSetInsert·p0.95:   0.085 s/op
+                 HashSetInsert·p0.99:   0.109 s/op
+                 HashSetInsert·p0.999:  0.113 s/op
+                 HashSetInsert·p0.9999: 0.113 s/op
+                 HashSetInsert·p1.00:   0.113 s/op
+
+Iteration   2: 0.071 ±(99.9%) 0.003 s/op
+                 HashSetInsert·p0.00:   0.064 s/op
+                 HashSetInsert·p0.50:   0.068 s/op
+                 HashSetInsert·p0.90:   0.080 s/op
+                 HashSetInsert·p0.95:   0.086 s/op
+                 HashSetInsert·p0.99:   0.128 s/op
+                 HashSetInsert·p0.999:  0.134 s/op
+                 HashSetInsert·p0.9999: 0.134 s/op
+                 HashSetInsert·p1.00:   0.134 s/op
+
+Iteration   3: 0.070 ±(99.9%) 0.002 s/op
+                 HashSetInsert·p0.00:   0.064 s/op
+                 HashSetInsert·p0.50:   0.066 s/op
+                 HashSetInsert·p0.90:   0.081 s/op
+                 HashSetInsert·p0.95:   0.093 s/op
+                 HashSetInsert·p0.99:   0.099 s/op
+                 HashSetInsert·p0.999:  0.100 s/op
+                 HashSetInsert·p0.9999: 0.100 s/op
+                 HashSetInsert·p1.00:   0.100 s/op
+
+Iteration   4: 0.067 ±(99.9%) 0.001 s/op
+                 HashSetInsert·p0.00:   0.064 s/op
+                 HashSetInsert·p0.50:   0.066 s/op
+                 HashSetInsert·p0.90:   0.072 s/op
+                 HashSetInsert·p0.95:   0.075 s/op
+                 HashSetInsert·p0.99:   0.095 s/op
+                 HashSetInsert·p0.999:  0.102 s/op
+                 HashSetInsert·p0.9999: 0.102 s/op
+                 HashSetInsert·p1.00:   0.102 s/op
+
+Iteration   5: 0.073 ±(99.9%) 0.003 s/op
+                 HashSetInsert·p0.00:   0.064 s/op
+                 HashSetInsert·p0.50:   0.069 s/op
+                 HashSetInsert·p0.90:   0.088 s/op
+                 HashSetInsert·p0.95:   0.097 s/op
+                 HashSetInsert·p0.99:   0.125 s/op
+                 HashSetInsert·p0.999:  0.126 s/op
+                 HashSetInsert·p0.9999: 0.126 s/op
+                 HashSetInsert·p1.00:   0.126 s/op
+
+
+# Run progress: 68.52% complete, ETA 00:20:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.074 ±(99.9%) 0.003 s/op
+# Warmup Iteration   2: 0.074 ±(99.9%) 0.002 s/op
+Iteration   1: 0.078 ±(99.9%) 0.003 s/op
+                 HashSetInsert·p0.00:   0.069 s/op
+                 HashSetInsert·p0.50:   0.074 s/op
+                 HashSetInsert·p0.90:   0.088 s/op
+                 HashSetInsert·p0.95:   0.097 s/op
+                 HashSetInsert·p0.99:   0.147 s/op
+                 HashSetInsert·p0.999:  0.150 s/op
+                 HashSetInsert·p0.9999: 0.150 s/op
+                 HashSetInsert·p1.00:   0.150 s/op
+
+Iteration   2: 0.075 ±(99.9%) 0.002 s/op
+                 HashSetInsert·p0.00:   0.069 s/op
+                 HashSetInsert·p0.50:   0.073 s/op
+                 HashSetInsert·p0.90:   0.085 s/op
+                 HashSetInsert·p0.95:   0.089 s/op
+                 HashSetInsert·p0.99:   0.109 s/op
+                 HashSetInsert·p0.999:  0.112 s/op
+                 HashSetInsert·p0.9999: 0.112 s/op
+                 HashSetInsert·p1.00:   0.112 s/op
+
+Iteration   3: 0.081 ±(99.9%) 0.004 s/op
+                 HashSetInsert·p0.00:   0.069 s/op
+                 HashSetInsert·p0.50:   0.077 s/op
+                 HashSetInsert·p0.90:   0.097 s/op
+                 HashSetInsert·p0.95:   0.108 s/op
+                 HashSetInsert·p0.99:   0.129 s/op
+                 HashSetInsert·p0.999:  0.131 s/op
+                 HashSetInsert·p0.9999: 0.131 s/op
+                 HashSetInsert·p1.00:   0.131 s/op
+
+Iteration   4: 0.083 ±(99.9%) 0.005 s/op
+                 HashSetInsert·p0.00:   0.069 s/op
+                 HashSetInsert·p0.50:   0.077 s/op
+                 HashSetInsert·p0.90:   0.108 s/op
+                 HashSetInsert·p0.95:   0.118 s/op
+                 HashSetInsert·p0.99:   0.134 s/op
+                 HashSetInsert·p0.999:  0.134 s/op
+                 HashSetInsert·p0.9999: 0.134 s/op
+                 HashSetInsert·p1.00:   0.134 s/op
+
+Iteration   5: 0.085 ±(99.9%) 0.004 s/op
+                 HashSetInsert·p0.00:   0.070 s/op
+                 HashSetInsert·p0.50:   0.082 s/op
+                 HashSetInsert·p0.90:   0.098 s/op
+                 HashSetInsert·p0.95:   0.112 s/op
+                 HashSetInsert·p0.99:   0.129 s/op
+                 HashSetInsert·p0.999:  0.130 s/op
+                 HashSetInsert·p0.9999: 0.130 s/op
+                 HashSetInsert·p1.00:   0.130 s/op
+
+
+
+Result "com.naz.MyBenchmark.HashSetInsert":
+  N = 624
+  mean =      0.080 ±(99.9%) 0.002 s/op
+
+  Histogram, s/op:
+    [0.060, 0.070) = 69 
+    [0.070, 0.080) = 331 
+    [0.080, 0.090) = 116 
+    [0.090, 0.100) = 62 
+    [0.100, 0.110) = 22 
+    [0.110, 0.120) = 13 
+    [0.120, 0.130) = 5 
+    [0.130, 0.140) = 5 
+    [0.140, 0.150) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.069 s/op
+     p(50.0000) =      0.076 s/op
+     p(90.0000) =      0.097 s/op
+     p(95.0000) =      0.107 s/op
+     p(99.0000) =      0.129 s/op
+     p(99.9000) =      0.150 s/op
+     p(99.9900) =      0.150 s/op
+     p(99.9990) =      0.150 s/op
+     p(99.9999) =      0.150 s/op
+    p(100.0000) =      0.150 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.HashSetSearch
+
+# Run progress: 70.37% complete, ETA 00:18:58
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   ? 10?³ s/op
+
+Iteration   2: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   4: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   ? 10?? s/op
+
+
+# Run progress: 72.22% complete, ETA 00:17:47
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   0.001 s/op
+
+Iteration   2: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   3: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   4: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 HashSetSearch·p0.00:   ? 0 s/op
+                 HashSetSearch·p0.50:   ? 10?? s/op
+                 HashSetSearch·p0.90:   ? 10?? s/op
+                 HashSetSearch·p0.95:   ? 10?? s/op
+                 HashSetSearch·p0.99:   ? 10?? s/op
+                 HashSetSearch·p0.999:  ? 10?? s/op
+                 HashSetSearch·p0.9999: ? 10?? s/op
+                 HashSetSearch·p1.00:   ? 10?³ s/op
+
+
+
+Result "com.naz.MyBenchmark.HashSetSearch":
+  N = 1284861
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 1284839 
+    [0.000, 0.000) = 12 
+    [0.000, 0.000) = 5 
+    [0.000, 0.001) = 3 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 0 
+    [0.002, 0.002) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =        ? 0 s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =      0.002 s/op
+    p(100.0000) =      0.002 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.HashSetSort
+
+# Run progress: 74.07% complete, ETA 00:16:35
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.002 s/op
+
+Iteration   2: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   ? 10?³ s/op
+
+Iteration   3: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.002 s/op
+
+Iteration   4: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   ? 10?³ s/op
+
+
+# Run progress: 75.92% complete, ETA 00:15:24
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.001 s/op
+
+Iteration   2: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.002 s/op
+
+Iteration   4: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   0.004 s/op
+
+Iteration   5: ? 10?? s/op
+                 HashSetSort·p0.00:   ? 0 s/op
+                 HashSetSort·p0.50:   ? 10?? s/op
+                 HashSetSort·p0.90:   ? 10?? s/op
+                 HashSetSort·p0.95:   ? 10?? s/op
+                 HashSetSort·p0.99:   ? 10?? s/op
+                 HashSetSort·p0.999:  ? 10?? s/op
+                 HashSetSort·p0.9999: ? 10?? s/op
+                 HashSetSort·p1.00:   ? 10?? s/op
+
+
+
+Result "com.naz.MyBenchmark.HashSetSort":
+  N = 1730238
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 1730228 
+    [0.000, 0.001) = 3 
+    [0.001, 0.001) = 2 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.002) = 0 
+    [0.002, 0.002) = 1 
+    [0.002, 0.002) = 2 
+    [0.002, 0.002) = 1 
+    [0.002, 0.003) = 0 
+    [0.003, 0.003) = 0 
+    [0.003, 0.003) = 0 
+    [0.003, 0.003) = 0 
+    [0.003, 0.004) = 0 
+    [0.004, 0.004) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =        ? 0 s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =      0.002 s/op
+    p(100.0000) =      0.004 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetInsert
+
+# Run progress: 77.78% complete, ETA 00:14:13
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.075 ±(99.9%) 0.003 s/op
+# Warmup Iteration   2: 0.076 ±(99.9%) 0.004 s/op
+Iteration   1: 0.076 ±(99.9%) 0.004 s/op
+                 LinkedHashSetInsert·p0.00:   0.065 s/op
+                 LinkedHashSetInsert·p0.50:   0.071 s/op
+                 LinkedHashSetInsert·p0.90:   0.095 s/op
+                 LinkedHashSetInsert·p0.95:   0.110 s/op
+                 LinkedHashSetInsert·p0.99:   0.132 s/op
+                 LinkedHashSetInsert·p0.999:  0.134 s/op
+                 LinkedHashSetInsert·p0.9999: 0.134 s/op
+                 LinkedHashSetInsert·p1.00:   0.134 s/op
+
+Iteration   2: 0.076 ±(99.9%) 0.005 s/op
+                 LinkedHashSetInsert·p0.00:   0.064 s/op
+                 LinkedHashSetInsert·p0.50:   0.068 s/op
+                 LinkedHashSetInsert·p0.90:   0.102 s/op
+                 LinkedHashSetInsert·p0.95:   0.111 s/op
+                 LinkedHashSetInsert·p0.99:   0.160 s/op
+                 LinkedHashSetInsert·p0.999:  0.166 s/op
+                 LinkedHashSetInsert·p0.9999: 0.166 s/op
+                 LinkedHashSetInsert·p1.00:   0.166 s/op
+
+Iteration   3: 0.076 ±(99.9%) 0.003 s/op
+                 LinkedHashSetInsert·p0.00:   0.065 s/op
+                 LinkedHashSetInsert·p0.50:   0.075 s/op
+                 LinkedHashSetInsert·p0.90:   0.087 s/op
+                 LinkedHashSetInsert·p0.95:   0.096 s/op
+                 LinkedHashSetInsert·p0.99:   0.142 s/op
+                 LinkedHashSetInsert·p0.999:  0.156 s/op
+                 LinkedHashSetInsert·p0.9999: 0.156 s/op
+                 LinkedHashSetInsert·p1.00:   0.156 s/op
+
+Iteration   4: 0.080 ±(99.9%) 0.005 s/op
+                 LinkedHashSetInsert·p0.00:   0.065 s/op
+                 LinkedHashSetInsert·p0.50:   0.075 s/op
+                 LinkedHashSetInsert·p0.90:   0.101 s/op
+                 LinkedHashSetInsert·p0.95:   0.120 s/op
+                 LinkedHashSetInsert·p0.99:   0.157 s/op
+                 LinkedHashSetInsert·p0.999:  0.160 s/op
+                 LinkedHashSetInsert·p0.9999: 0.160 s/op
+                 LinkedHashSetInsert·p1.00:   0.160 s/op
+
+Iteration   5: 0.072 ±(99.9%) 0.003 s/op
+                 LinkedHashSetInsert·p0.00:   0.064 s/op
+                 LinkedHashSetInsert·p0.50:   0.068 s/op
+                 LinkedHashSetInsert·p0.90:   0.083 s/op
+                 LinkedHashSetInsert·p0.95:   0.087 s/op
+                 LinkedHashSetInsert·p0.99:   0.122 s/op
+                 LinkedHashSetInsert·p0.999:  0.133 s/op
+                 LinkedHashSetInsert·p0.9999: 0.133 s/op
+                 LinkedHashSetInsert·p1.00:   0.133 s/op
+
+
+# Run progress: 79.63% complete, ETA 00:13:02
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.076 ±(99.9%) 0.004 s/op
+# Warmup Iteration   2: 0.078 ±(99.9%) 0.003 s/op
+Iteration   1: 0.083 ±(99.9%) 0.005 s/op
+                 LinkedHashSetInsert·p0.00:   0.070 s/op
+                 LinkedHashSetInsert·p0.50:   0.076 s/op
+                 LinkedHashSetInsert·p0.90:   0.105 s/op
+                 LinkedHashSetInsert·p0.95:   0.118 s/op
+                 LinkedHashSetInsert·p0.99:   0.142 s/op
+                 LinkedHashSetInsert·p0.999:  0.142 s/op
+                 LinkedHashSetInsert·p0.9999: 0.142 s/op
+                 LinkedHashSetInsert·p1.00:   0.142 s/op
+
+Iteration   2: 0.083 ±(99.9%) 0.007 s/op
+                 LinkedHashSetInsert·p0.00:   0.069 s/op
+                 LinkedHashSetInsert·p0.50:   0.075 s/op
+                 LinkedHashSetInsert·p0.90:   0.106 s/op
+                 LinkedHashSetInsert·p0.95:   0.134 s/op
+                 LinkedHashSetInsert·p0.99:   0.199 s/op
+                 LinkedHashSetInsert·p0.999:  0.207 s/op
+                 LinkedHashSetInsert·p0.9999: 0.207 s/op
+                 LinkedHashSetInsert·p1.00:   0.207 s/op
+
+Iteration   3: 0.081 ±(99.9%) 0.003 s/op
+                 LinkedHashSetInsert·p0.00:   0.069 s/op
+                 LinkedHashSetInsert·p0.50:   0.079 s/op
+                 LinkedHashSetInsert·p0.90:   0.092 s/op
+                 LinkedHashSetInsert·p0.95:   0.100 s/op
+                 LinkedHashSetInsert·p0.99:   0.123 s/op
+                 LinkedHashSetInsert·p0.999:  0.124 s/op
+                 LinkedHashSetInsert·p0.9999: 0.124 s/op
+                 LinkedHashSetInsert·p1.00:   0.124 s/op
+
+Iteration   4: 0.090 ±(99.9%) 0.007 s/op
+                 LinkedHashSetInsert·p0.00:   0.070 s/op
+                 LinkedHashSetInsert·p0.50:   0.083 s/op
+                 LinkedHashSetInsert·p0.90:   0.118 s/op
+                 LinkedHashSetInsert·p0.95:   0.140 s/op
+                 LinkedHashSetInsert·p0.99:   0.201 s/op
+                 LinkedHashSetInsert·p0.999:  0.207 s/op
+                 LinkedHashSetInsert·p0.9999: 0.207 s/op
+                 LinkedHashSetInsert·p1.00:   0.207 s/op
+
+Iteration   5: 0.083 ±(99.9%) 0.004 s/op
+                 LinkedHashSetInsert·p0.00:   0.070 s/op
+                 LinkedHashSetInsert·p0.50:   0.078 s/op
+                 LinkedHashSetInsert·p0.90:   0.104 s/op
+                 LinkedHashSetInsert·p0.95:   0.114 s/op
+                 LinkedHashSetInsert·p0.99:   0.137 s/op
+                 LinkedHashSetInsert·p0.999:  0.138 s/op
+                 LinkedHashSetInsert·p0.9999: 0.138 s/op
+                 LinkedHashSetInsert·p1.00:   0.138 s/op
+
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetInsert":
+  N = 600
+  mean =      0.084 ±(99.9%) 0.002 s/op
+
+  Histogram, s/op:
+    [0.000, 0.025) = 0 
+    [0.025, 0.050) = 0 
+    [0.050, 0.075) = 243 
+    [0.075, 0.100) = 283 
+    [0.100, 0.125) = 51 
+    [0.125, 0.150) = 18 
+    [0.150, 0.175) = 3 
+    [0.175, 0.200) = 0 
+    [0.200, 0.225) = 2 
+    [0.225, 0.250) = 0 
+    [0.250, 0.275) = 0 
+    [0.275, 0.300) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.069 s/op
+     p(50.0000) =      0.078 s/op
+     p(90.0000) =      0.104 s/op
+     p(95.0000) =      0.118 s/op
+     p(99.0000) =      0.145 s/op
+     p(99.9000) =      0.207 s/op
+     p(99.9900) =      0.207 s/op
+     p(99.9990) =      0.207 s/op
+     p(99.9999) =      0.207 s/op
+    p(100.0000) =      0.207 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSearch
+
+# Run progress: 81.48% complete, ETA 00:11:51
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   ? 10?³ s/op
+
+Iteration   2: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   3: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   ? 10?³ s/op
+
+Iteration   4: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   5: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   ? 10?³ s/op
+
+
+# Run progress: 83.33% complete, ETA 00:10:40
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   0.032 s/op
+
+Iteration   2: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   0.001 s/op
+
+Iteration   4: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   5: ? 10?? s/op
+                 LinkedHashSetSearch·p0.00:   ? 0 s/op
+                 LinkedHashSetSearch·p0.50:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.90:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.95:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.99:   ? 10?? s/op
+                 LinkedHashSetSearch·p0.999:  ? 10?? s/op
+                 LinkedHashSetSearch·p0.9999: ? 10?? s/op
+                 LinkedHashSetSearch·p1.00:   0.002 s/op
+
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSearch":
+  N = 1137356
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.003) = 1137355 
+    [0.003, 0.005) = 0 
+    [0.005, 0.008) = 0 
+    [0.008, 0.010) = 0 
+    [0.010, 0.013) = 0 
+    [0.013, 0.015) = 0 
+    [0.015, 0.018) = 0 
+    [0.018, 0.020) = 0 
+    [0.020, 0.023) = 0 
+    [0.023, 0.025) = 0 
+    [0.025, 0.028) = 0 
+    [0.028, 0.030) = 0 
+    [0.030, 0.033) = 1 
+    [0.033, 0.035) = 0 
+    [0.035, 0.038) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ? 0 s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?³ s/op
+     p(99.9999) =      0.028 s/op
+    p(100.0000) =      0.032 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSort
+
+# Run progress: 85.18% complete, ETA 00:09:29
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+Iteration   2: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   ? 10?? s/op
+
+Iteration   4: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 10?? s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.013 s/op
+
+
+# Run progress: 87.03% complete, ETA 00:08:17
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 10?? s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.001 s/op
+
+Iteration   2: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+Iteration   4: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 LinkedHashSetSort·p0.00:   ? 0 s/op
+                 LinkedHashSetSort·p0.50:   ? 10?? s/op
+                 LinkedHashSetSort·p0.90:   ? 10?? s/op
+                 LinkedHashSetSort·p0.95:   ? 10?? s/op
+                 LinkedHashSetSort·p0.99:   ? 10?? s/op
+                 LinkedHashSetSort·p0.999:  ? 10?? s/op
+                 LinkedHashSetSort·p0.9999: ? 10?? s/op
+                 LinkedHashSetSort·p1.00:   0.002 s/op
+
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSort":
+  N = 1542127
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 1542115 
+    [0.000, 0.001) = 7 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 0 
+    [0.001, 0.002) = 1 
+    [0.002, 0.002) = 1 
+    [0.002, 0.002) = 1 
+    [0.002, 0.002) = 2 
+    [0.002, 0.003) = 0 
+    [0.003, 0.003) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ? 0 s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =      0.002 s/op
+    p(100.0000) =      0.002 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.TreeSetInsert
+
+# Run progress: 88.89% complete, ETA 00:07:06
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.340 ±(99.9%) 0.030 s/op
+# Warmup Iteration   2: 0.339 ±(99.9%) 0.019 s/op
+Iteration   1: 0.339 ±(99.9%) 0.018 s/op
+                 TreeSetInsert·p0.00:   0.315 s/op
+                 TreeSetInsert·p0.50:   0.329 s/op
+                 TreeSetInsert·p0.90:   0.394 s/op
+                 TreeSetInsert·p0.95:   0.401 s/op
+                 TreeSetInsert·p0.99:   0.403 s/op
+                 TreeSetInsert·p0.999:  0.403 s/op
+                 TreeSetInsert·p0.9999: 0.403 s/op
+                 TreeSetInsert·p1.00:   0.403 s/op
+
+Iteration   2: 0.325 ±(99.9%) 0.005 s/op
+                 TreeSetInsert·p0.00:   0.312 s/op
+                 TreeSetInsert·p0.50:   0.322 s/op
+                 TreeSetInsert·p0.90:   0.337 s/op
+                 TreeSetInsert·p0.95:   0.342 s/op
+                 TreeSetInsert·p0.99:   0.346 s/op
+                 TreeSetInsert·p0.999:  0.346 s/op
+                 TreeSetInsert·p0.9999: 0.346 s/op
+                 TreeSetInsert·p1.00:   0.346 s/op
+
+Iteration   3: 0.328 ±(99.9%) 0.007 s/op
+                 TreeSetInsert·p0.00:   0.320 s/op
+                 TreeSetInsert·p0.50:   0.324 s/op
+                 TreeSetInsert·p0.90:   0.347 s/op
+                 TreeSetInsert·p0.95:   0.357 s/op
+                 TreeSetInsert·p0.99:   0.364 s/op
+                 TreeSetInsert·p0.999:  0.364 s/op
+                 TreeSetInsert·p0.9999: 0.364 s/op
+                 TreeSetInsert·p1.00:   0.364 s/op
+
+Iteration   4: 0.337 ±(99.9%) 0.010 s/op
+                 TreeSetInsert·p0.00:   0.321 s/op
+                 TreeSetInsert·p0.50:   0.335 s/op
+                 TreeSetInsert·p0.90:   0.360 s/op
+                 TreeSetInsert·p0.95:   0.371 s/op
+                 TreeSetInsert·p0.99:   0.377 s/op
+                 TreeSetInsert·p0.999:  0.377 s/op
+                 TreeSetInsert·p0.9999: 0.377 s/op
+                 TreeSetInsert·p1.00:   0.377 s/op
+
+Iteration   5: 0.359 ±(99.9%) 0.018 s/op
+                 TreeSetInsert·p0.00:   0.326 s/op
+                 TreeSetInsert·p0.50:   0.355 s/op
+                 TreeSetInsert·p0.90:   0.390 s/op
+                 TreeSetInsert·p0.95:   0.422 s/op
+                 TreeSetInsert·p0.99:   0.441 s/op
+                 TreeSetInsert·p0.999:  0.441 s/op
+                 TreeSetInsert·p0.9999: 0.441 s/op
+                 TreeSetInsert·p1.00:   0.441 s/op
+
+
+# Run progress: 90.74% complete, ETA 00:05:55
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.338 ±(99.9%) 0.027 s/op
+# Warmup Iteration   2: 0.335 ±(99.9%) 0.012 s/op
+Iteration   1: 0.335 ±(99.9%) 0.010 s/op
+                 TreeSetInsert·p0.00:   0.315 s/op
+                 TreeSetInsert·p0.50:   0.332 s/op
+                 TreeSetInsert·p0.90:   0.355 s/op
+                 TreeSetInsert·p0.95:   0.371 s/op
+                 TreeSetInsert·p0.99:   0.380 s/op
+                 TreeSetInsert·p0.999:  0.380 s/op
+                 TreeSetInsert·p0.9999: 0.380 s/op
+                 TreeSetInsert·p1.00:   0.380 s/op
+
+Iteration   2: 0.369 ±(99.9%) 0.030 s/op
+                 TreeSetInsert·p0.00:   0.314 s/op
+                 TreeSetInsert·p0.50:   0.360 s/op
+                 TreeSetInsert·p0.90:   0.438 s/op
+                 TreeSetInsert·p0.95:   0.443 s/op
+                 TreeSetInsert·p0.99:   0.445 s/op
+                 TreeSetInsert·p0.999:  0.445 s/op
+                 TreeSetInsert·p0.9999: 0.445 s/op
+                 TreeSetInsert·p1.00:   0.445 s/op
+
+Iteration   3: 0.373 ±(99.9%) 0.024 s/op
+                 TreeSetInsert·p0.00:   0.333 s/op
+                 TreeSetInsert·p0.50:   0.359 s/op
+                 TreeSetInsert·p0.90:   0.435 s/op
+                 TreeSetInsert·p0.95:   0.451 s/op
+                 TreeSetInsert·p0.99:   0.460 s/op
+                 TreeSetInsert·p0.999:  0.460 s/op
+                 TreeSetInsert·p0.9999: 0.460 s/op
+                 TreeSetInsert·p1.00:   0.460 s/op
+
+Iteration   4: 0.366 ±(99.9%) 0.017 s/op
+                 TreeSetInsert·p0.00:   0.334 s/op
+                 TreeSetInsert·p0.50:   0.359 s/op
+                 TreeSetInsert·p0.90:   0.408 s/op
+                 TreeSetInsert·p0.95:   0.423 s/op
+                 TreeSetInsert·p0.99:   0.425 s/op
+                 TreeSetInsert·p0.999:  0.425 s/op
+                 TreeSetInsert·p0.9999: 0.425 s/op
+                 TreeSetInsert·p1.00:   0.425 s/op
+
+Iteration   5: 0.350 ±(99.9%) 0.008 s/op
+                 TreeSetInsert·p0.00:   0.332 s/op
+                 TreeSetInsert·p0.50:   0.350 s/op
+                 TreeSetInsert·p0.90:   0.368 s/op
+                 TreeSetInsert·p0.95:   0.373 s/op
+                 TreeSetInsert·p0.99:   0.374 s/op
+                 TreeSetInsert·p0.999:  0.374 s/op
+                 TreeSetInsert·p0.9999: 0.374 s/op
+                 TreeSetInsert·p1.00:   0.374 s/op
+
+
+
+Result "com.naz.MyBenchmark.TreeSetInsert":
+  N = 142
+  mean =      0.358 ±(99.9%) 0.009 s/op
+
+  Histogram, s/op:
+    [0.300, 0.313) = 0 
+    [0.313, 0.325) = 11 
+    [0.325, 0.338) = 28 
+    [0.338, 0.350) = 28 
+    [0.350, 0.363) = 31 
+    [0.363, 0.375) = 13 
+    [0.375, 0.388) = 7 
+    [0.388, 0.400) = 9 
+    [0.400, 0.413) = 2 
+    [0.413, 0.425) = 6 
+    [0.425, 0.438) = 3 
+    [0.438, 0.450) = 3 
+    [0.450, 0.463) = 1 
+    [0.463, 0.475) = 0 
+    [0.475, 0.488) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.314 s/op
+     p(50.0000) =      0.352 s/op
+     p(90.0000) =      0.405 s/op
+     p(95.0000) =      0.426 s/op
+     p(99.0000) =      0.454 s/op
+     p(99.9000) =      0.460 s/op
+     p(99.9900) =      0.460 s/op
+     p(99.9990) =      0.460 s/op
+     p(99.9999) =      0.460 s/op
+    p(100.0000) =      0.460 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.TreeSetSearch
+
+# Run progress: 92.59% complete, ETA 00:04:44
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   2: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   ? 10?? s/op
+
+Iteration   4: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   ? 10?³ s/op
+
+Iteration   5: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   0.002 s/op
+
+
+# Run progress: 94.44% complete, ETA 00:03:33
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   0.002 s/op
+
+Iteration   2: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   0.001 s/op
+
+Iteration   3: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   0.001 s/op
+
+Iteration   4: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?³ s/op
+                 TreeSetSearch·p1.00:   0.005 s/op
+
+Iteration   5: ? 10?? s/op
+                 TreeSetSearch·p0.00:   ? 0 s/op
+                 TreeSetSearch·p0.50:   ? 10?? s/op
+                 TreeSetSearch·p0.90:   ? 10?? s/op
+                 TreeSetSearch·p0.95:   ? 10?? s/op
+                 TreeSetSearch·p0.99:   ? 10?? s/op
+                 TreeSetSearch·p0.999:  ? 10?? s/op
+                 TreeSetSearch·p0.9999: ? 10?? s/op
+                 TreeSetSearch·p1.00:   ? 10?? s/op
+
+
+
+Result "com.naz.MyBenchmark.TreeSetSearch":
+  N = 1189127
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.001) = 1189106 
+    [0.001, 0.001) = 15 
+    [0.001, 0.002) = 3 
+    [0.002, 0.002) = 1 
+    [0.002, 0.003) = 1 
+    [0.003, 0.003) = 0 
+    [0.003, 0.004) = 0 
+    [0.004, 0.004) = 0 
+    [0.004, 0.005) = 0 
+    [0.005, 0.005) = 0 
+    [0.005, 0.006) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =        ? 0 s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =      0.001 s/op
+     p(99.9999) =      0.005 s/op
+    p(100.0000) =      0.005 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Sampling time
+# Benchmark: com.naz.MyBenchmark.TreeSetSort
+
+# Run progress: 96.29% complete, ETA 00:02:22
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+Iteration   2: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+Iteration   3: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+Iteration   4: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+
+# Run progress: 98.14% complete, ETA 00:01:11
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   ? 10?? s/op
+
+Iteration   2: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.001 s/op
+
+Iteration   3: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+Iteration   4: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+Iteration   5: ? 10?? s/op
+                 TreeSetSort·p0.00:   ? 0 s/op
+                 TreeSetSort·p0.50:   ? 10?? s/op
+                 TreeSetSort·p0.90:   ? 10?? s/op
+                 TreeSetSort·p0.95:   ? 10?? s/op
+                 TreeSetSort·p0.99:   ? 10?? s/op
+                 TreeSetSort·p0.999:  ? 10?? s/op
+                 TreeSetSort·p0.9999: ? 10?? s/op
+                 TreeSetSort·p1.00:   0.002 s/op
+
+
+
+Result "com.naz.MyBenchmark.TreeSetSort":
+  N = 1716078
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [0.000, 0.000) = 1716056 
+    [0.000, 0.001) = 13 
+    [0.001, 0.001) = 4 
+    [0.001, 0.001) = 0 
+    [0.001, 0.001) = 1 
+    [0.001, 0.002) = 1 
+    [0.002, 0.002) = 1 
+    [0.002, 0.002) = 1 
+    [0.002, 0.002) = 1 
+    [0.002, 0.003) = 0 
+    [0.003, 0.003) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =        ? 0 s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =      0.002 s/op
+    p(100.0000) =      0.002 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.HashSetInsert
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.224 s/op
+# Warmup Iteration   2: 0.147 s/op
+Iteration   1: 0.148 s/op
+Iteration   2: 0.108 s/op
+Iteration   3: 0.113 s/op
+Iteration   4: 0.145 s/op
+Iteration   5: 0.163 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.259 s/op
+# Warmup Iteration   2: 0.184 s/op
+Iteration   1: 0.166 s/op
+Iteration   2: 0.113 s/op
+Iteration   3: 0.120 s/op
+Iteration   4: 0.134 s/op
+Iteration   5: 0.141 s/op
+
+
+Result "com.naz.MyBenchmark.HashSetInsert":
+  N = 5
+  mean =      0.135 ±(99.9%) 0.080 s/op
+
+  Histogram, s/op:
+    [0.110, 0.115) = 1 
+    [0.115, 0.120) = 0 
+    [0.120, 0.125) = 1 
+    [0.125, 0.130) = 0 
+    [0.130, 0.135) = 1 
+    [0.135, 0.140) = 0 
+    [0.140, 0.145) = 1 
+    [0.145, 0.150) = 0 
+    [0.150, 0.155) = 0 
+    [0.155, 0.160) = 0 
+    [0.160, 0.165) = 0 
+    [0.165, 0.170) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.113 s/op
+     p(50.0000) =      0.134 s/op
+     p(90.0000) =      0.166 s/op
+     p(95.0000) =      0.166 s/op
+     p(99.0000) =      0.166 s/op
+     p(99.9000) =      0.166 s/op
+     p(99.9900) =      0.166 s/op
+     p(99.9990) =      0.166 s/op
+     p(99.9999) =      0.166 s/op
+    p(100.0000) =      0.166 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.HashSetSearch
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.HashSetSearch":
+  N = 5
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =     ? 10?? s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =     ? 10?? s/op
+    p(100.0000) =     ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.HashSetSort
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.001 s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.HashSetSort":
+  N = 5
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ? 10?? s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =     ? 10?? s/op
+    p(100.0000) =     ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetInsert
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.255 s/op
+# Warmup Iteration   2: 0.157 s/op
+Iteration   1: 0.182 s/op
+Iteration   2: 0.158 s/op
+Iteration   3: 0.138 s/op
+Iteration   4: 0.182 s/op
+Iteration   5: 0.176 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.390 s/op
+# Warmup Iteration   2: 0.193 s/op
+Iteration   1: 0.161 s/op
+Iteration   2: 0.143 s/op
+Iteration   3: 0.150 s/op
+Iteration   4: 0.172 s/op
+Iteration   5: 0.182 s/op
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetInsert":
+  N = 5
+  mean =      0.161 ±(99.9%) 0.060 s/op
+
+  Histogram, s/op:
+    [0.140, 0.143) = 0 
+    [0.143, 0.145) = 1 
+    [0.145, 0.148) = 0 
+    [0.148, 0.150) = 1 
+    [0.150, 0.153) = 0 
+    [0.153, 0.155) = 0 
+    [0.155, 0.158) = 0 
+    [0.158, 0.160) = 0 
+    [0.160, 0.163) = 1 
+    [0.163, 0.165) = 0 
+    [0.165, 0.168) = 0 
+    [0.168, 0.170) = 0 
+    [0.170, 0.173) = 1 
+    [0.173, 0.175) = 0 
+    [0.175, 0.178) = 0 
+    [0.178, 0.180) = 0 
+    [0.180, 0.183) = 1 
+    [0.183, 0.185) = 0 
+    [0.185, 0.188) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.143 s/op
+     p(50.0000) =      0.161 s/op
+     p(90.0000) =      0.182 s/op
+     p(95.0000) =      0.182 s/op
+     p(99.0000) =      0.182 s/op
+     p(99.9000) =      0.182 s/op
+     p(99.9900) =      0.182 s/op
+     p(99.9990) =      0.182 s/op
+     p(99.9999) =      0.182 s/op
+    p(100.0000) =      0.182 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSearch
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSearch":
+  N = 5
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ? 10?? s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =     ? 10?? s/op
+    p(100.0000) =     ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.LinkedHashSetSort
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.002 s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.001 s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.LinkedHashSetSort":
+  N = 5
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ? 10?? s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =     ? 10?? s/op
+    p(100.0000) =     ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.TreeSetInsert
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.780 s/op
+# Warmup Iteration   2: 0.438 s/op
+Iteration   1: 0.472 s/op
+Iteration   2: 0.463 s/op
+Iteration   3: 0.508 s/op
+Iteration   4: 0.530 s/op
+Iteration   5: 0.509 s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.769 s/op
+# Warmup Iteration   2: 0.414 s/op
+Iteration   1: 0.400 s/op
+Iteration   2: 0.355 s/op
+Iteration   3: 0.375 s/op
+Iteration   4: 0.463 s/op
+Iteration   5: 0.502 s/op
+
+
+Result "com.naz.MyBenchmark.TreeSetInsert":
+  N = 5
+  mean =      0.419 ±(99.9%) 0.238 s/op
+
+  Histogram, s/op:
+    [0.300, 0.325) = 0 
+    [0.325, 0.350) = 0 
+    [0.350, 0.375) = 1 
+    [0.375, 0.400) = 2 
+    [0.400, 0.425) = 0 
+    [0.425, 0.450) = 0 
+    [0.450, 0.475) = 1 
+    [0.475, 0.500) = 0 
+    [0.500, 0.525) = 1 
+    [0.525, 0.550) = 0 
+    [0.550, 0.575) = 0 
+    [0.575, 0.600) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =      0.355 s/op
+     p(50.0000) =      0.400 s/op
+     p(90.0000) =      0.502 s/op
+     p(95.0000) =      0.502 s/op
+     p(99.0000) =      0.502 s/op
+     p(99.9000) =      0.502 s/op
+     p(99.9900) =      0.502 s/op
+     p(99.9990) =      0.502 s/op
+     p(99.9999) =      0.502 s/op
+    p(100.0000) =      0.502 s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.TreeSetSearch
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: ? 10?? s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.TreeSetSearch":
+  N = 5
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 2 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+
+  Percentiles, s/op:
+      p(0.0000) =     ? 10?? s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =     ? 10?? s/op
+    p(100.0000) =     ? 10?? s/op
+
+
+# JMH version: 1.36
+# VM version: JDK 17.0.5, OpenJDK 64-Bit Server VM, 17.0.5+8
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 2 iterations, single-shot each
+# Measurement: 5 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.naz.MyBenchmark.TreeSetSort
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Warmup Fork: 1 of 1
+# Warmup Iteration   1: 0.001 s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+# Run progress: 100.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 0.002 s/op
+# Warmup Iteration   2: ? 10?? s/op
+Iteration   1: ? 10?? s/op
+Iteration   2: ? 10?? s/op
+Iteration   3: ? 10?? s/op
+Iteration   4: ? 10?? s/op
+Iteration   5: ? 10?? s/op
+
+
+Result "com.naz.MyBenchmark.TreeSetSort":
+  N = 5
+  mean =     ? 10?? ±(99.9%) 0.001 s/op
+
+  Histogram, s/op:
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 1 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+    [ 0.000,  0.000) = 0 
+
+  Percentiles, s/op:
+      p(0.0000) =     ? 10?? s/op
+     p(50.0000) =     ? 10?? s/op
+     p(90.0000) =     ? 10?? s/op
+     p(95.0000) =     ? 10?? s/op
+     p(99.0000) =     ? 10?? s/op
+     p(99.9000) =     ? 10?? s/op
+     p(99.9900) =     ? 10?? s/op
+     p(99.9990) =     ? 10?? s/op
+     p(99.9999) =     ? 10?? s/op
+    p(100.0000) =     ? 10?? s/op
+
+
+# Run complete. Total time: 01:04:34
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                                      Mode      Cnt         Score          Error  Units
+MyBenchmark.HashSetInsert                                     thrpt        5        11.350 ±        3.462  ops/s
+MyBenchmark.HashSetSearch                                     thrpt        5  35376978.027 ±  2364664.961  ops/s
+MyBenchmark.HashSetSort                                       thrpt        5  13782696.867 ± 17343038.101  ops/s
+MyBenchmark.LinkedHashSetInsert                               thrpt        5         9.629 ±        2.492  ops/s
+MyBenchmark.LinkedHashSetSearch                               thrpt        5  34963825.247 ±   877658.954  ops/s
+MyBenchmark.LinkedHashSetSort                                 thrpt        5  20309539.756 ±  7596785.685  ops/s
+MyBenchmark.TreeSetInsert                                     thrpt        5         2.608 ±        0.424  ops/s
+MyBenchmark.TreeSetSearch                                     thrpt        5  35496029.579 ±  8416794.530  ops/s
+MyBenchmark.TreeSetSort                                       thrpt        5  25150085.460 ±  1182117.731  ops/s
+MyBenchmark.HashSetInsert                                      avgt        5         0.077 ±        0.009   s/op
+MyBenchmark.HashSetSearch                                      avgt        5        ? 10??                  s/op
+MyBenchmark.HashSetSort                                        avgt        5        ? 10??                  s/op
+MyBenchmark.LinkedHashSetInsert                                avgt        5         0.071 ±        0.006   s/op
+MyBenchmark.LinkedHashSetSearch                                avgt        5        ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort                                  avgt        5        ? 10??                  s/op
+MyBenchmark.TreeSetInsert                                      avgt        5         0.350 ±        0.089   s/op
+MyBenchmark.TreeSetSearch                                      avgt        5        ? 10??                  s/op
+MyBenchmark.TreeSetSort                                        avgt        5        ? 10??                  s/op
+MyBenchmark.HashSetInsert                                    sample      624         0.080 ±        0.002   s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.00                sample                  0.069                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.50                sample                  0.076                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.90                sample                  0.097                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.95                sample                  0.107                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.99                sample                  0.129                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.999               sample                  0.150                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p0.9999              sample                  0.150                  s/op
+MyBenchmark.HashSetInsert:HashSetInsert·p1.00                sample                  0.150                  s/op
+MyBenchmark.HashSetSearch                                    sample  1284861        ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.00                sample                    ? 0                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.50                sample                 ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.90                sample                 ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.95                sample                 ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.99                sample                 ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.999               sample                 ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p0.9999              sample                 ? 10??                  s/op
+MyBenchmark.HashSetSearch:HashSetSearch·p1.00                sample                  0.002                  s/op
+MyBenchmark.HashSetSort                                      sample  1730238        ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.00                    sample                    ? 0                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.50                    sample                 ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.90                    sample                 ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.95                    sample                 ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.99                    sample                 ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.999                   sample                 ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p0.9999                  sample                 ? 10??                  s/op
+MyBenchmark.HashSetSort:HashSetSort·p1.00                    sample                  0.004                  s/op
+MyBenchmark.LinkedHashSetInsert                              sample      600         0.084 ±        0.002   s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.00    sample                  0.069                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.50    sample                  0.078                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.90    sample                  0.104                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.95    sample                  0.118                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.99    sample                  0.145                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.999   sample                  0.207                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p0.9999  sample                  0.207                  s/op
+MyBenchmark.LinkedHashSetInsert:LinkedHashSetInsert·p1.00    sample                  0.207                  s/op
+MyBenchmark.LinkedHashSetSearch                              sample  1137356        ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.00    sample                    ? 0                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.50    sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.90    sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.95    sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.99    sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.999   sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p0.9999  sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSearch:LinkedHashSetSearch·p1.00    sample                  0.032                  s/op
+MyBenchmark.LinkedHashSetSort                                sample  1542127        ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.00        sample                    ? 0                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.50        sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.90        sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.95        sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.99        sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.999       sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p0.9999      sample                 ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort:LinkedHashSetSort·p1.00        sample                  0.002                  s/op
+MyBenchmark.TreeSetInsert                                    sample      142         0.358 ±        0.009   s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.00                sample                  0.314                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.50                sample                  0.352                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.90                sample                  0.405                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.95                sample                  0.426                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.99                sample                  0.454                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.999               sample                  0.460                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p0.9999              sample                  0.460                  s/op
+MyBenchmark.TreeSetInsert:TreeSetInsert·p1.00                sample                  0.460                  s/op
+MyBenchmark.TreeSetSearch                                    sample  1189127        ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.00                sample                    ? 0                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.50                sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.90                sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.95                sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.99                sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.999               sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p0.9999              sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSearch:TreeSetSearch·p1.00                sample                  0.005                  s/op
+MyBenchmark.TreeSetSort                                      sample  1716078        ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.00                    sample                    ? 0                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.50                    sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.90                    sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.95                    sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.99                    sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.999                   sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p0.9999                  sample                 ? 10??                  s/op
+MyBenchmark.TreeSetSort:TreeSetSort·p1.00                    sample                  0.002                  s/op
+MyBenchmark.HashSetInsert                                        ss        5         0.135 ±        0.080   s/op
+MyBenchmark.HashSetSearch                                        ss        5        ? 10??                  s/op
+MyBenchmark.HashSetSort                                          ss        5        ? 10??                  s/op
+MyBenchmark.LinkedHashSetInsert                                  ss        5         0.161 ±        0.060   s/op
+MyBenchmark.LinkedHashSetSearch                                  ss        5        ? 10??                  s/op
+MyBenchmark.LinkedHashSetSort                                    ss        5        ? 10??                  s/op
+MyBenchmark.TreeSetInsert                                        ss        5         0.419 ±        0.238   s/op
+MyBenchmark.TreeSetSearch                                        ss        5        ? 10??                  s/op
+MyBenchmark.TreeSetSort                                          ss        5        ? 10??                  s/op

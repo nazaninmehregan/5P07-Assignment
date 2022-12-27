@@ -37,9 +37,9 @@ java -jar target/benchmarks.jar > output.txt
 
 | **Data Structure**        | **Throughput** (ops/s)          | **Average Time(Speed)** (s/op) |
 | :------------- |:-------------:| :-----:|
-| HashSet     | 11.350 | 0.077 |
-| LinkedHashSet      | 9.629      |   0.071 |
-| TreeSet | 2.608      |    0.350 |
+| HashSet     | 12.284 | 0.084 |
+| LinkedHashSet      | 10.268      |   0.090 |
+| TreeSet | 2.629      |     0.360 |
 
 HashSet gives better performance than the LinkedHashSet and TreeSet. LinkedHashSet has moderate and slower performance since it uses LinkedList internally to ensure element insertion order. TreeSet gives the least performance because it has to sort the elements after each insertion and removal operation.
 
@@ -48,9 +48,9 @@ HashSet gives better performance than the LinkedHashSet and TreeSet. LinkedHashS
 
 | **Data Structure**        | **Throughput** (ops/s)          | **Average Speed** (s/op) |
 | :------------- |:-------------:| :-----:|
-| HashSet     | 35376978.027 | 10⁻<sup>7</sup> |
-| LinkedHashSet      | 34963825.247      |  10⁻<sup>7</sup> |
-| TreeSet | 35496029.579   |    10⁻<sup>7</sup> |
+| HashSet     | 35559851.708 | 10⁻<sup>7</sup> |
+| LinkedHashSet      | 35033093.635   |  10⁻<sup>7</sup> |
+| TreeSet | 33580675.805   |    10⁻<sup>7</sup> |
 
 HashSet is the fastest for the search operation since the items are randomly placed in the set and the throughput would be higher.
 Linked hashset is a close second in throughput and speed since its elements maintain an insertion order. In contrasst, treeset has the lowest throughput since the items in it are ordered and when looking for one item it takes a long time to get to it as it might bethe last item in the tree.
@@ -60,9 +60,9 @@ Linked hashset is a close second in throughput and speed since its elements main
 
 | **Data Structure**        | **Throughput** (ops/s)          | **Average Speed** (s/op) |
 | :------------- |:-------------:| :-----:|
-| HashSet     | 13782696.867 | 10⁻⁸ |
-| LinkedHashSet      | 20309539.756      |   10⁻⁸ |
-| TreeSet | 25150085.460     |   10⁻⁹ |
+| HashSet     | 20746282.634 | 10⁻⁸ |
+| LinkedHashSet      |   21559048.119    |   10⁻⁸ |
+| TreeSet | 22897729.454     |   10⁻⁸ |
 
 When data is inserted into treeSet, the data is already sorted. Even if the sorted order has to be in descending order, we can quickly reverse the order of the tree. That's why treeset has the higest throughput.
 

@@ -59,8 +59,8 @@ public class MyBenchmark {
 
     //Insert
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void HashSetInsert(MyState state) {
 
@@ -70,8 +70,8 @@ public class MyBenchmark {
     }
 
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void TreeSetInsert(MyState state) {
           
@@ -81,8 +81,8 @@ public class MyBenchmark {
     }
 
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void LinkedHashSetInsert(MyState state) {
         
@@ -93,24 +93,24 @@ public class MyBenchmark {
 
     // Search (Contain)
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void HashSetSearch(MyState state, Blackhole bh) {
         bh.consume(state.hset.contains(state.rand.nextInt(10000)));
     }
 
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void TreeSetSearch(MyState state, Blackhole bh) {
         bh.consume(state.tset.contains(state.rand.nextInt(10000)));
     }
 
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void LinkedHashSetSearch(MyState state, Blackhole bh) {
         bh.consume(state.linkedset.contains(state.rand.nextInt(10000)));
@@ -118,24 +118,24 @@ public class MyBenchmark {
 
     // Sort
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void HashSetSort(MyState state, Blackhole bh) {
         bh.consume(state.hset.stream().sorted());
     }
 
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void TreeSetSort(MyState state, Blackhole bh) {
         bh.consume(state.tset.stream().sorted());
     }
 
     @Benchmark @BenchmarkMode(Mode.All) @OutputTimeUnit(TimeUnit.SECONDS)
-    @Warmup(iterations = 2)
-    @Measurement(iterations = 5)
+    @Warmup(iterations = 5)
+    @Measurement(iterations = 10)
     @Fork(value = 1, warmups = 1)
     public void LinkedHashSetSort(MyState state, Blackhole bh) {
         bh.consume(state.linkedset.stream().sorted());
